@@ -10,3 +10,5 @@ router.get("/:id",getTodoById);
 router.put('/:id',updateTodo); //put for update
 router.delete('/:id',deleteTodo);
 export default router;
+
+//export const todoRoutes = router;
