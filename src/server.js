@@ -1,9 +1,9 @@
-import dotenvb from "dotenv";
-import { ConnectDB } from "./config/dbConnect";
-import app from "./app"
+import dotenv from "dotenv";
+import { ConnectDB } from "./config/dbConnect.js";
+import app from "./app.js"
 dotenv.config();
 ConnectDB();
-const PORT = 8080;
+ const PORT = 8000;
 app.listen(PORT,()=>{
     console.log(`server is running at http://localhost:${PORT}`);
 })
