@@ -1,5 +1,5 @@
 import express from "express";  //express is a frame work 
-import todoRoutes from "./routes/todo.routes.js"
+import todoRoutes from "./routes/todo.routes.js "
 
 const app = express();    //we have to use a variable
 
